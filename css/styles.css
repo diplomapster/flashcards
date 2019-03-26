@@ -1,0 +1,130 @@
+@media (max-width: 1000px) {
+  body {
+    /* padding:2px 4px;
+    width: 90%; */
+    line-height: 1;
+  }
+}
+
+h1,
+h2{
+  text-align: center;
+  font-family: verdana;
+}
+
+h1 {
+  font-size: 55px;
+  color: black;
+}
+
+a {
+  font-family: verdana;
+  color: black;
+  text-decoration: underline;
+}
+
+p,
+li{
+  font-family: verdana;
+  font-size: 15px;
+}
+
+.jumbotron {
+  background-image: url("** This is the image in the Jumbotron");
+  background-size: cover;
+  background-position: b;
+  border-radius: 25px;
+  text-shadow: 4px 4px #99999977;
+}
+
+.container {
+  background-color: #ffffff00;
+  position: relative;
+  width: 90%;
+  padding-bottom: 20px;
+  padding-top: none;
+}
+
+.col-md-4 {
+  position: relative;
+  background-color: #b3b3b333;
+  min-height: 5px;
+  padding: -15px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.sidenav {
+  float: left;
+  width: 15px;
+  font-size: 15px;
+}
+
+.panel-heading {
+  background-color: #80bfff77;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.panel-title {
+  text-align: center;
+}
+
+body {
+  background-color: #e8eefd;
+  background-image: url(***** This is the image in the background);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.purpose {
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.btn-info {
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+button {
+  opacity: .5;
+}
+
+.nav-item {
+  display: flex; justify-content: center;
+  margin-bottom: -50px;
+  padding: 2px;
+}
+
+.nav-pills {
+  display: flex; justify-content: center;
+}
+
+.clickable1, .clickable2, .clickable3{
+  cursor: pointer;
+  color: #008833
+}
+
+.clickable1:hover, .clickable2:hover, .clickable3:hover{
+  text-decoration: underline;
+}
+#javascript, #jquery, #html {
+  display: none;
+}
+
+
+.row {
+  height: 250px;
+}
